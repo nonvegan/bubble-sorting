@@ -26,7 +26,7 @@ function setup() {
     divRanges.appendChild(button)
     canvas.width = width
     canvas.height = height
-    ctx.fillStyle = Color.WHITE.hex()
+    ctx.fillStyle = "white"
     for (let x = 0; x < (width / scale); x++) {
         array[x] = height / (width / scale) * x
     }
