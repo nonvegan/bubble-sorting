@@ -6,7 +6,6 @@ const range = document.createElement('input')
 const rangeLabel = document.createElement('label')
 const width = window.screen.height / 2
 const height = window.screen.height / 2
-const center = new Vector(width / 2, height / 2)
 let array = []
 let scale = 5
 
