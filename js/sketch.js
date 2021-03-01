@@ -92,4 +92,4 @@ setup()
 setInterval(() => {
     clear()
     draw()
-}, getMs(600));
+}, getMs(60));
